@@ -33,7 +33,7 @@ controller.moveSprite(mySprite)
 scene.cameraFollowSprite(mySprite)
 info.setScore(0)
 info.setLife(3)
-game.onUpdateInterval(100, function () {
+game.onUpdateInterval(25, function () {
     mySprite2 = sprites.create(img`
         . . . . . . e e c c e e . . . . 
         . . . . . e 2 2 2 2 2 2 e . . . 
